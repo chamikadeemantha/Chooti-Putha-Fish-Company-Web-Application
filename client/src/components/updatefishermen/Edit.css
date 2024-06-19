@@ -1,0 +1,13 @@
+#bck{
+    background-color: rgb(18, 138, 141);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.addFishermenForm .inputGroup select{
+    margin-bottom: 10px;
+    padding: 10px;
+    outline: none;
+}

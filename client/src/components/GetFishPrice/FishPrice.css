@@ -1,0 +1,301 @@
+
+.FishPriceTable {
+  width: 90%;
+  background-color: white;
+  border-radius: 5px;
+  margin: 0px auto;
+  padding: 50px;
+}
+
+.fishcenterfix {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.fishaddButton1 {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #7497ff;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 10px 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.fishaddButton1:hover {
+  transform: scale(1.1);
+  background-color: #06007a;
+}
+
+.fishaddButton1 .link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.FishPriceTable table {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+
+.FishPriceTable table thead th {
+  background-color: rgb(181, 183, 255);
+  color: rgb(42, 38, 38);
+  padding: 10px;
+}
+
+.fishheader1 {
+  background-color: rgb(218, 201, 11);
+  color: rgb(16, 16, 16);
+}
+
+.fishheader2 {
+  background-color: rgb(176, 156, 248);
+  color: rgb(255, 255, 255);
+}
+
+.evenRow {
+  background-color: rgb(230, 234, 252);
+}
+
+.oddRow {
+  background-color: rgb(255, 255, 255);
+}
+
+.FishPriceTable table tbody td {
+  padding: 10px;
+  text-align: center;
+}
+
+.fishactionButtons button {
+  border: 0;
+  outline: none;
+  background: rgb(255, 78, 78);
+  padding: 8px 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fishactionButtons a {
+  background: rgb(21, 167, 21);
+  padding: 6px 10px;
+  color: white;
+  border-radius: 5px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.fishdate {
+  color: #000101;
+  text-shadow: 2px 2px 4px #cccccc;
+  padding: 10px;
+  padding-bottom: 0;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.fishSelect {
+  &__control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  &__menu {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  &__option {
+    &:hover {
+      background-color: #f2f2f2;
+    }
+  }
+}
+
+.fishselect-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: right;
+  margin-right: 10px;
+}
+
+.fishgrade-select {
+  width: 100px; 
+  margin-left: auto;
+}
+
+.fishdownloadButton {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #7497ff;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 13px 15px;
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+
+.fishdownloadButton:hover {
+  transform: scale(1.1);
+  background-color: #06007a;
+}
+
+.fishdownloadButton .link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.fishbuttonGroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fishbackb {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none; /* Add this line */
+  background-color: #7497ff;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 10px 15px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.fishsearchBar input {
+  padding: 10px;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 270px;
+}
+
+.fishsearchBar input::placeholder {
+  color: #999;
+}
+
+.fishsearchBar input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.fishconfirmationModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fishconfirmationContent {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.fishconfirmationButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.fishconfirmationButtons button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fishconfirmationButtons button:nth-child(1) {
+  background-color: #ff4d4d;
+  color: #fff;
+}
+
+.fishconfirmationButtons button:nth-child(2) {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.fishpagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.fishpagination button {
+  margin: 0 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #396bfe;
+  color: white;
+}
+
+.fishpagination button:disabled {
+  background-color: #9a9a9a;
+  cursor: not-allowed;
+}
+
+/* pie chart */
+
+.fishpieChartContainer {
+  position: relative;
+}
+
+.fishpieChart {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.fishcloseButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.fishcloseButton svg {
+  fill: #ffffff;
+}
+
+.fishcloseButton svg:hover {
+  fill: #ff1d1d;
+}
+
+.fishtoggleButton1Container {
+  margin-left: 10px;
+}
+
+.fishtoggleButton1 {
+  padding: 10px 20px;
+  background-color: #7497ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fishtoggleButton1:hover {
+  background-color: #06007a;
+}
+.fishtoggleButton1 .link {
+  color: inherit;
+  text-decoration: none;
+}

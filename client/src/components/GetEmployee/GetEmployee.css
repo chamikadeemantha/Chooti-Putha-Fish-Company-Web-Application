@@ -1,0 +1,276 @@
+
+  
+  .EmployeeTable {
+    width: 90%;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0px auto;
+    padding: 50px;
+  }
+  
+  .addButton {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #52a0ff;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    box-shadow: 1px 1px 2px black;
+    border-radius: 5px;
+    padding: 10px 15px;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .addButton:hover {
+    transform: scale(1.02);
+  }
+  
+  .addButton .link {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .EmployeeTable table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+  }
+  
+  .EmployeeTable table thead th {
+    background-color: white;
+    color: rgb(42, 38, 38);
+    padding: 10px;
+  }
+  
+  .header1 {
+    background-color: white;
+    color: rgb(16, 16, 16);
+  }
+  
+  .header2 {
+    background-color: white;
+    color: rgb(255, 255, 255);
+  }
+  
+  .evenRow {
+    background-color: white;
+  }
+  
+  .oddRow {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .EmployeeTable table tbody td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .actionButtons button {
+    border: 0;
+    outline: none;
+    background: rgb(245, 57, 57);
+    padding: 5px 8px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .actionButtons a {
+    background: rgb(52, 183, 52);
+    outline: none;
+    padding:5px 8px;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  .date {
+    color: #000101;
+    /* text-shadow: 2px 2px 4px #cccccc; */
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+  
+  .Select {
+    &__control {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    &__menu {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    &__option {
+      &:hover {
+        background-color: #f2f2f2;
+      }
+    }
+  }
+  
+  .select-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    margin-right: 10px;
+  }
+  
+  .department-select {
+    width: 200px; /* Set the width of the dropdown */
+    margin-left: auto;
+  }
+  
+  .downloadButtonContainer {
+    text-align: right;
+    margin-left: 10px; /* Adjust margin as needed */
+  }
+  
+  .downloadButton {
+    background-color: #52a0ff;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px black;
+  }
+  
+  .downloadButton:hover {
+    transform: scale(1.02);
+  }
+  
+  .OTdiv {
+    position: absolute;
+    top: 25%;
+    width: 300px;
+    transform: translateY(-20%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+  }
+  
+  .OTdiv h5 {
+    margin: 0;
+    padding: 5px 0;
+  }
+  
+  
+  /*Search bar*/
+  .searchContainer {
+    display: flex;
+    justify-content: end;
+    margin: 20px 0;
+  }
+  
+  .searchInput {
+    width: 300px;
+    height: 40px;
+    padding: 0 20px;
+    border-width: 1px;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+  }
+  
+  .searchInput:focus {
+    outline: none;
+  }
+.OTButton {
+  background-color: #52a0ff;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 30px;
+  text-align: start;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 1px 1px 2px black;
+}
+
+.OTButton:focus {
+  background-color: blue;
+  outline: none;
+}
+
+.OTButton:hover {
+  transform: scale(1.02);
+}
+
+.OTBDiv{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.backb {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none; /* Add this line */
+  background-color: #52a0ff;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 10px 15px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  box-shadow: 1px 1px 2px black;
+}
+
+.backb:hover {
+  transform: scale(1.02);
+}
+
+.empconfirmationModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.empconfirmationContent {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.empconfirmationButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.empconfirmationButtons button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.empconfirmationButtons button:nth-child(1) {
+  background-color: #ff4d4d;
+  color: #fff;
+}
+
+.empconfirmationButtons button:nth-child(2) {
+  background-color: #4caf50;
+  color: #fff;
+}

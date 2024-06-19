@@ -1,0 +1,54 @@
+.deletedFishermenTable{
+    width: 90%;
+    background: #ffffff; /* Fallback for older browsers */
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+table{
+    border: 1px solid #000000;
+}
+
+tr:hover {
+    background-color: #e0f2f1;
+    transition: background-color 0.3s ease;
+  }
+
+th{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.deletedFishermenTable table{
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+.deletedFishermenTable table thead th{
+    /* background-color: rgb(88, 121, 171); */
+    background-color: rgb(84, 141, 205);
+    color: white;
+    padding: 10px;
+}
+
+.deletedFishermenTable table tbody td{
+    padding: 10px;
+    text-align: center;
+}
+
+.DeletedGeneratePDFreport{
+    background-color: #2f8dff;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px rgb(255, 255, 255);
+}

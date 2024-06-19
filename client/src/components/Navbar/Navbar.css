@@ -1,0 +1,196 @@
+.nav {
+  width: 100%;
+
+  background-color: #5b5e69;
+}
+
+.navbar {
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar .icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar .icons .notification {
+  position: relative;
+}
+
+.navbar .icons .notification span {
+  background-color: red;
+  color: white;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8px;
+  position: absolute;
+  right: -5px;
+  top: -5px;
+}
+
+.navbar .icons .user {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.navbar .icons .user img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.logout-btn {
+  background-color: #f05353;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* add hover to above btn */
+.logout-btn:hover {
+  background-color: #ffffff;
+  color: #223c87;
+}
+.nav-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 300px;
+  background-color: #b4d7ff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  padding: 20px;
+  transition: transform 0.3s ease;
+  transform: translateX(0);
+  overflow: scroll;
+}
+
+.nav-sidebar.open {
+  transform: translateX(-100%);
+}
+
+.nav-sidebar .top {
+  display: flex;
+  justify-content: space-between;
+  color: #223c87;
+}
+
+.side-imgname {
+  width: 90%;
+  height: 230px;
+  margin-top: 10px;
+}
+.side-imgname img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.side-imgname .pos {
+  color: #000f3e;
+  font-size: 30px;
+  text-align: center;
+}
+
+.side-imgname .name {
+  text-align: center;
+  color: #000a2a;
+  font-size: 20px;
+  font-family: "Roboto";
+  text-transform: capitalize;
+}
+
+.change-pass {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.oldpass,
+.newpass,
+.conpass {
+  width: 100%;
+  position: relative;
+}
+
+.oldpass input,
+.newpass input,
+.conpass input {
+  width: 100%;
+  padding: 5px 10px;
+  margin-top: 5px;
+  border: 1px solid #3d0045;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-size: 16px;
+  outline: none;
+}
+
+.changepass-btn {
+  background-color: #b63bd1;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+.changepass-btn:hover
+ {
+  background-color: #001d7c;
+}
+
+.oldpass .eye,
+.newpass .eye,
+.conpass .eye {
+  position: absolute;
+  top: 36px;
+  right: 20px;
+  font-size: 18px;
+  color: #616161;
+  cursor: pointer;
+}
+
+/*support button*/
+
+.support-btn1 {
+  background-color: #a4c0dd; 
+  color: #0e0909; 
+  border: none;
+  padding: 6px 10px; 
+  font-size: 14px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+  border-radius: 4px; 
+  margin-left: 10px; 
+}
+
+.support-btn1:hover {
+  background-color: #001d3a; 
+  color: #ffffff; 
+}

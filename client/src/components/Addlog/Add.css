@@ -1,0 +1,124 @@
+.addlog{
+    border: none;
+}
+
+.Catch_container {
+  display: flex; /* Use flexbox */
+  align-items: flex-start; /* Align items at the start of the container */
+  width: 100%;
+  max-width: 100%;
+  margin-top: 2px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Catch_image-container {
+  flex: 1; /* Take 1/3 of the space */
+}
+
+.Catch_fish-image {
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 60px;
+  height: 535px; /* Maintain aspect ratio */
+  border-top-left-radius: 8px; /* Adjust border radius */
+  border-bottom-left-radius: 8px; /* Adjust border radius */
+}
+
+.Catch_form-container {
+  flex: 2; /* Take 2/3 of the space */
+  padding: 20px;
+  margin-left: 40px;
+}
+
+/* .Catch_container {
+    display: fixed;
+    width: 100%;
+    max-width: 100%; 
+    margin-top: 2px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-width: 0;
+    height: 1000px;
+  } */
+/* 
+  .Catch_image-container {
+    flex: 2;
+  } */
+
+  /* .Catch_fish-image {
+    position: absolute;
+    width: 34%;
+    height: 675px;
+    object-fit: cover;
+    left: 60px;
+    top: 78px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .Catch_form-container{
+    flex: 3;
+    padding: 20px;
+    margin-right: 40px;
+    margin-top: 50px;
+    padding-right: 80px;
+    padding-left: 80px;
+  } */
+
+  .Catch_header {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  #Catch_form-title {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+.addLogForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.Catch_inputGroup {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.Catch_inputGroup label{
+    font-weight: bold;
+}
+
+.Catch_inputGroup input,
+.Catch_inputGroup select {
+  width: 85%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Catch_inputGroup select {
+    appearance: none;
+    padding-right: 30px;
+    width: 87%;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0z"/><path d="M7 10l5 5 5-5H7z" fill="rgba(0,0,0,.54)"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+  }
+
+  .Catch_submitButton {
+    padding: 10px 20px;
+    background-color: #4c77af;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Catch_submitButton:hover {
+    background-color: rgb(0, 0, 154);
+  }

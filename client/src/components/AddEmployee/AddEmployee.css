@@ -1,0 +1,108 @@
+.empsalaryAddEmployee {
+  border: none;
+}
+
+.empsalarycontainer {
+  display: flex;
+  width: 100%;
+  max-width: 100%; /* Adjust as needed */
+  margin-top: 2px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-width: 0;
+  height: 750px;
+
+}
+
+.empsalaryimage-container {
+  flex: 2;
+}
+
+.empsalaryfish-image {
+  position: absolute;
+  width: 34%;
+  height: 700px;
+  object-fit: cover;
+  left: 60px;
+  top: 78px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.empsalaryform-container {
+  flex: 3;
+  padding: 20px;
+  margin-right: 40px;
+  margin-top: 50px;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.empsalaryheader {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.empsalaryform-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.empsalaryform {
+  display: flex;
+  flex-direction: column;
+}
+
+.empsalaryinputGroup {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.empsalaryinputGroup label {
+  font-weight: bold;
+}
+
+.empsalaryinputGroup input,
+.empsalaryinputGroup select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.empsalaryinputGroup select {
+  appearance: none;
+  padding-right: 30px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0z"/><path d="M7 10l5 5 5-5H7z" fill="rgba(0,0,0,.54)"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.empsalaryerror {
+  color: red;
+  font-size: 14px;
+  position: absolute;
+  top: 100%;
+  left: 10;
+  right: 0;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 0px;
+}
+
+.empsalarysubmitButton {
+  padding: 10px 20px;
+  background-color: #4c77af;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.empsalarysubmitButton:hover {
+  background-color: rgb(0, 0, 154);
+}

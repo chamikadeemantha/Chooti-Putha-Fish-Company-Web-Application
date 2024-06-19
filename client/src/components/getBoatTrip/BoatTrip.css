@@ -1,0 +1,161 @@
+.boattripdetailstable {
+  border-radius: 10px;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.boatboattriptable {
+  background-color: #f8f8f8;
+
+  border-radius: 5px;
+  margin: 50px auto;
+  width: 85%;
+  padding: 50px;
+  font-family: sans-serif;
+}
+
+.boatbuttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.boatbackButton,
+.boatboattripaddButton,
+.boatdownloadButton {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #1245dd;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.boatbackButton:hover,
+.boatboattripaddButton:hover,
+.boatdownloadButton:hover {
+  background-color: #06007a;
+}
+
+.boatsearchboattrip {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.boatsearchboattrip input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+}
+
+.boatsearchAndSortContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.boatbutton-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.boatsortprofit,
+.boatfilterOptions select {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.boatsortprofit:hover {
+  background-color: #263c77;
+  color: white;
+}
+
+.boatfilterOptions select {
+  width: 200px;
+}
+
+.boatfilterOptions select:focus {
+  outline: none;
+}
+
+.boatbtripdeletebt,
+.boatbtripupdatebt {
+  border: 0;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.boatbtripdeletebt {
+  background-color: #d80d1b;
+}
+
+.boatbtripupdatebt {
+  background-color: #12da33;
+}
+
+.boatbtripdeletebt:hover {
+  background-color: #a30404;
+}
+
+.boatbtripupdatebt:hover {
+  background-color: #f790f1;
+}
+
+.boatbtripupdatebt > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.boatsortprofit.active,
+.boatfilterOptions select.active {
+  background-color: #1e708b;
+}
+
+.boatboattriptable table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.boatboattriptable th, .boatboattriptable td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.boatboattriptable th {
+  background-color: #708090;
+  color: white;
+}
+
+.boatboattriptable tbody tr:nth-child(even) {
+  background-color: #f0f8ff;
+}
+
+.boatboattriptable tbody tr:nth-child(odd) {
+  background-color: #a7e0a6;
+}
+
+.boatboattriptable tbody tr:hover {
+  background-color: #d3d3d3;
+}

@@ -1,0 +1,248 @@
+
+.EquipmentTable {
+  width: 98%;
+  background-color: white;
+  border-radius: 5px;
+  margin: 0px auto;
+  padding: 20px;
+  border-collapse: collapse;
+}
+
+.equipmentcenterfix {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Added this line */
+  margin-top: 30px;
+}
+
+.equipmentaddButton1 {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #7497ff;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 10px 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.equipmentaddButton1:hover {
+  transform: scale(1.1);
+  background-color: #06007a;
+}
+
+.equipmentaddButton1 .link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.EquipmentTable table {
+
+  width: 100%;
+  margin-top: 40px;
+  border-collapse: collapse;
+}
+
+.equipmentTable table thead th {
+  background-color: rgb(181, 183, 255);
+  color: rgb(42, 38, 38);
+  padding: 20px;
+  font-size: 16px; /* Increased font size for headers */
+}
+
+.equipmentheader1,
+.equipmentheader2 {
+  background-color: rgb(176, 156, 248);
+  color: rgb(16, 16, 16);
+  padding: 15px; /* Increased padding */
+}
+
+.equipmentevenRow {
+  background-color: rgb(230, 234, 252);
+}
+
+.equipmentoddRow {
+  background-color: rgb(255, 255, 255);
+}
+
+.EquipmentTable  tbody td {
+  padding: 10px;
+  text-align: center;
+}
+
+.equipmentactionButtons button {
+  border: 0;
+  outline: none;
+  background: rgb(255, 78, 78);
+  padding: 8px 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.equipmentactionButtons a {
+  background: rgb(21, 167, 21);
+  padding: 6px 10px;
+  color: white;
+  border-radius: 5px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.equipmentdate {
+  color: #000101;
+  text-shadow: 2px 2px 4px #cccccc;
+  padding: 10px;
+  padding-bottom: 0;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.equipment-select-container {
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  align-items: center;
+  margin-left: 10px; /* Added margin-left to push it to the right side */
+  margin-right: 20px; /* Adjusted margin-right to give it some space from the right edge */
+}
+
+.equipment-select {
+  width: 120px; /* Set width to accommodate the dropdown */
+}
+
+.equipment-select__control {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px; /* Increased font size */
+}
+
+.equipment-select__menu {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px; /* Increased font size */
+}
+
+.equipment-select__option:hover {
+  background-color: #f2f2f2;
+}
+.equipmentdownloadButton {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #7497ff;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 13px 15px;
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+
+.equipmentdownloadButton:hover {
+  transform: scale(1.1);
+  background-color: #06007a;
+}
+
+.equipmentdownloadButton .link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.equipmentbuttonGroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.equipmentbackb {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none; /* Add this line */
+  background-color: #7497ff;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 10px 15px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.equipmentsearchBar input {
+  padding: 10px;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 270px;
+}
+
+.equipmentsearchBar input::placeholder {
+  color: #999;
+}
+
+.equipmentsearchBar input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.equipmentconfirmationModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.equipmentconfirmationContent {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.equipmentconfirmationButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.equipmentconfirmationButtons button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.equipmentconfirmationButtons button:nth-child(1) {
+  background-color: #ff4d4d;
+  color: #fff;
+}
+
+.equipmentconfirmationButtons button:nth-child(2) {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+
+.equipmentcloseButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.equipmentcloseButton svg {
+  fill: #ffffff;
+}
+
+.equipmentcloseButton svg:hover {
+  fill: #ff1d1d;
+}
+
+.equipmenttoggleButton1Container {
+  margin-left: 10px;
+}

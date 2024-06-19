@@ -1,0 +1,350 @@
+.fishermenTable{
+    width: 90%;
+    background: #ffffff; 
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+table{
+    border: 1px solid #000000;
+}
+
+tr:hover {
+    background-color: #e0f2f1;
+    transition: background-color 0.3s ease;
+  }
+
+th{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.Fishermen_addButton{
+    background-color: rgb(133, 189, 253);
+    text-decoration: none;
+    color: navy;
+    font-weight: 500;
+    border: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.Fishermen_add_delete_button{
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 20px; 
+}
+
+.Fishermen_searchSection{
+    margin-bottom: 20px;
+}
+
+#filter,
+.Fishermen_GeneratePDFreport{
+    text-decoration: none;
+    color: navy;
+    font-weight: 500;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.065);
+    border-radius: 5px;
+    padding: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    border: none;
+    background-color: rgb(133, 189, 253);
+}
+
+.Fishermen_GeneratePDFreport {
+    background-color: #2f8dff;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px rgb(255, 255, 255);
+    
+}
+
+.Fishermen_GeneratePDFreport :hover{
+    transform: scale(1.02);
+}
+
+.dateTimeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; 
+  }
+
+  .currentDateTime {
+    font-size: 50px; 
+    font-weight: bold; 
+    color: rgba(0, 53, 144, 0.827); 
+    font-family: 'LatoPoppins', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+.Fishermen_filterSection {
+    display: flex; /* Use flexbox for horizontal layout */
+    align-items: center; /* Align items vertically in the center */
+    margin-bottom: 20px;
+}
+
+#filter,
+.Fishermen_GeneratePDFreport {
+    margin-left: 20px; /* Add margin between the buttons */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.fishermenTable table{
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+.fishermenTable table thead th{
+    /* background-color: rgb(88, 121, 171); */
+    background-color: rgb(84, 141, 205);
+    color: white;
+    padding: 10px;
+}
+
+.fishermenTable table tbody td{
+    padding: 10px;
+    text-align: center;
+}
+
+.actionButtons button{
+    border: 0;
+    outline: none;
+    background: red;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.actionButtons button:hover, .actionButtons a:hover {
+    color: navy;
+  }
+
+.actionButtons a{
+    background: rgb(51, 102, 204);
+    padding: 6px 10px;
+    color: white;
+    border-radius: 5px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    /* cursor: pointer; */
+}
+
+.Fishermen_addButton, .Fishermen_DeleteButton {
+    text-decoration: none;
+    color: navy;
+    font-weight: 500;
+    border: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(133, 189, 253);
+    transition: background-color 0.3s ease; /* Smooth transition for better UX */
+}
+
+.Fishermen_add_delete_button,
+.Fishermen_filterSection {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.Fishermen_addButton,
+.Fishermen_DeleteButton,
+#EXPfilter,
+.Fishermen_GeneratePDFreport {
+    text-decoration: none;
+    color: navy;
+    font-weight: 500;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.065);
+    border-radius: 5px;
+    padding: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    border: none;
+    background-color: rgb(133, 189, 253);
+    margin-right: 20px; /* Add margin between the buttons */
+}
+
+/* #searchfishermen {
+    flex: 1; 
+} */
+
+.Fishermen_GeneratePDFreport {
+    background-color: #2f8dff;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+.Fishermen_GeneratePDFreport:hover {
+    transform: scale(1.02);
+}
+
+#searchfishermen,
+.Fishermen_GeneratePDFreport{
+    margin-left: 415px;
+}
+
+#searchfishermen {
+    width: 180px; /* Adjust width as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none; /* Remove default outline */
+}
+
+#searchfishermen:focus {
+    border-color: #2f8dff; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(47, 141, 255, 0.5); /* Add shadow on focus */
+}
+
+.Fishermen_filterSection {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.experienceFilter,
+#searchfishermen,
+.Fishermen_addButton,
+.Fishermen_DeleteButton,
+.Fishermen_GeneratePDFreport {
+    text-decoration: none;
+    color: navy;
+    font-weight: 500;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.065);
+    border-radius: 5px;
+    padding: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    border: none;
+    background-color: rgb(133, 189, 253);
+    margin-right: 20px; /* Add margin between the buttons */
+}
+
+#searchfishermen {
+    width: 180px; /* Adjust width as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none; /* Remove default outline */
+    
+}
+
+#searchfishermen:focus {
+    border-color: #2f8dff; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(47, 141, 255, 0.5); /* Add shadow on focus */
+}
+
+.Fishermen_GeneratePDFreport {
+    background-color: #2f8dff;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+.Fishermen_GeneratePDFreport:hover {
+    transform: scale(1.02);
+}
+
+/* Adjust margin and position for the buttons */
+#searchfishermen,
+.Fishermen_GeneratePDFreport {
+    margin-left: auto; /* Push to the right */
+}
+
+.Fishermen_addButton,
+.Fishermen_DeleteButton {
+    margin-right: 10px; /* Adjust margin between the buttons */
+}
+
+#EXPfilter{
+    font-size: 15px;
+    width: 175px;
+}
+
+.fishermenDeleteconfirmationModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fishermenDeleteconfirmationContent {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .fishermenDeleteconfirmationButtons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .fishermenDeleteconfirmationButtons button {
+    margin: 0 10px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .fishermenDeleteconfirmationButtons button:nth-child(1) {
+    background-color: #ff4d4d;
+    color: #fff;
+  }
+  
+  .fishermenDeleteconfirmationButtons button:nth-child(2) {
+    background-color: #4caf50;
+    color: #fff;
+  }
+
+  #searchfishermen{
+    background-color: white;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  }

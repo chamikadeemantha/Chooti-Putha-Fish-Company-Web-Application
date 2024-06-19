@@ -1,0 +1,74 @@
+.dashboard-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+/* dashboard-content is a grid 4 columns and 2 rows */
+.dashboard-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  padding: 10px;
+}
+
+.dash-item {
+  padding: 10px 20px;
+  box-shadow: 0 0 10px rgba(136, 214, 17, 0.1);
+  border-radius: 5px;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.dash-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0; /* Rounded corners for the top */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  transition: transform 0.3s ease; /* Add transition for hover effect */
+}
+
+.dash-item-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: self-start;
+}
+
+.dash-item-name {
+  font-size: 30px;
+  font-weight: bold;
+}
+.dash-item-button button {
+  padding: 10px 16px;
+  background-color: #386aff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.dash-item-button button:hover {
+  background-color: #001b76;
+  transform: translateY(-2px); /* Add a slight upward movement */
+}
+
+.dash-item:hover {
+  transform: translateY(10px) scale(1.02);
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed */
+}
+
+.centered {
+  text-align: center;
+}
